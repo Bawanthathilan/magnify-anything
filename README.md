@@ -1,4 +1,4 @@
-# Anything Magnifier
+# Anything Magnifier 🔎
 
 A flexible React component for creating a magnifying glass effect on any content.
 
