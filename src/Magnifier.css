@@ -1,0 +1,15 @@
+.magnify-container {
+  position: relative;
+}
+
+.magnify-glass {
+  border: 3px solid #000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.magnify-zoom {
+  position: absolute;
+  pointer-events: none;
+}
+
