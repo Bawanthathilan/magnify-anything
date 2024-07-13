@@ -1,21 +1,28 @@
-name: Publish to NPM
+name: Release to NPM
+
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
+      - next
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Node
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies and build 🔧
-        run: npm ci && npm run build
-      - name: Publish package on NPM 📦
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+          node-cersion: "lts/*"
+      - run: npm ci
+      - run: npm run build
+      - name: Release
+        env: 
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.npm_token}}
+        run: npx semantic-release
