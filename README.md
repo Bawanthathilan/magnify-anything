@@ -7,14 +7,14 @@ A flexible React component for creating a magnifying glass effect on any content
 Install the package using npm or yarn:
 
 ```bash
-npm i anything-magnifier
+npm i magnify-anything
 ```
 ![](https://github.com/Bawanthathilan/anything-zoomer/blob/master/assets/gif.gif)
 
 # Usage
 ```bash
 import React from 'react';
-import Magnifier from 'anything-magnifier';
+import Magnifier from 'magnify-anything';
 
 const App = () => {
   return (
