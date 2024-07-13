@@ -2,6 +2,7 @@
   "name": "anything-magnifier",
   "version": "1.2.0",
   "description": "A flexible React component for creating a magnifying glass effect on any content.",
+  "homepage": "https://github.com/Bawanthathilan/anything-zoomer",
   "main": "dist/index.js",
   "files": [
     "dist",

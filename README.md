@@ -9,7 +9,7 @@ Install the package using npm or yarn:
 ```bash
 npm i anything-magnifier
 ```
-![](./assets/gif.gif)
+![](https://github.com/Bawanthathilan/anything-zoomer/blob/master/assets/gif.gif)
 
 # Usage
 ```bash
@@ -44,7 +44,7 @@ The Magnifier component accepts the following props:
 
 # Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+Contributions are welcome! Please open an issue or submit a pull request on [Github](https://github.com/Bawanthathilan/anything-zoomer).
 
 # Contact
 For any questions or feedback, please contact [bawantharathnayaka@gmail.com].
