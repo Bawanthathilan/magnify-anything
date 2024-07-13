@@ -1,4 +1,4 @@
-name: Release to NPM
+name: Release to NPM v2
 
 on:
   push:
