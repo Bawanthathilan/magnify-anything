@@ -1,4 +1,5 @@
 # Magnify Anything 🔎
+![magnify-anything](https://socialify.git.ci/Bawanthathilan/magnify-anything/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
 A flexible React component for creating a magnifying glass effect on any content.
 
